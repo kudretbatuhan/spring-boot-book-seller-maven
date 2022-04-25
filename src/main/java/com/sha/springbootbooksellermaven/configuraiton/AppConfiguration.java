@@ -32,10 +32,10 @@ public class AppConfiguration {
 
 
         // Recipient's email ID needs to be mentioned.
-        String to = "muhendisbey50@gmail.com";
+        String to = "****";
 
         // Sender's email ID needs to be mentioned
-        String from = "kudretbatuhan@gmail.com";
+        String from = "****";
 
         // Assuming you are sending email from through gmails smtp
         String host = "smtp.gmail.com";
@@ -54,7 +54,7 @@ public class AppConfiguration {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication("kudretbatuhan@gmail.com", "nulpnwinpmmycech");
+                return new PasswordAuthentication("****", "****");
 
             }
 
