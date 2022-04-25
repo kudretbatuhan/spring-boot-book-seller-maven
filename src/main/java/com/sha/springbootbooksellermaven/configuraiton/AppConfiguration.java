@@ -24,17 +24,8 @@ import java.time.LocalTime;
 @EnableScheduling
 @Service
 public class AppConfiguration {
-/*
-    @Scheduled(fixedDelay = 3000)
-    public void sendMessage(){
-        System.out.println("Hey I am scheduled method");
-    }
-*/
 
-
-
-
-    @Scheduled(cron = "0 0/1 * * * *")
+    @Scheduled(cron = "0 0/5 * * * *")
     public void sendMessageCron(){
 
         System.out.println(LocalTime.now() +" Hey I am scheduled method");
